@@ -6,9 +6,21 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-    "name":"Robbie Weeks",
-    "email":"xlstc123@gmail.com",
-    "address":"123 smith road",
-    "dateOfBirth":"1995-03-05",
-    "registeredDate":"2026-03-05"
+  "name": "Robbie Weeks",
+  "email": "xlstc123@gmail.com",
+  "address": "123 smith road",
+  "dateOfBirth": "1995-03-05",
+  "registeredDate": "2026-03-05"
+}
+
+### PUT request to update a patient info
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+
+{
+  "name": "Robbie Knu Weeks",
+  "email": "xlstc1234@gmail.com",
+  "address": "123 smith road",
+  "dateOfBirth": "1995-03-05",
+  "registeredDate": "2026-03-05"
 }
