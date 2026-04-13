@@ -1,0 +1,8 @@
+# port address / service name / service method(API)
+GRPC localhost:9001/BillingService/CreateBillingAccount
+
+{
+  "patientId": "12344",
+  "name": "John Wick",
+  "email": "12315@gmail.com"
+}

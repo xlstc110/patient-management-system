@@ -1,0 +1,24 @@
+// proto version
+syntax = "proto3";
+
+// split service, request, and response file
+option java_multiple_files = true;
+// put all generated code into the a package call "billing"
+option java_package = "billing";
+
+service BillingService {
+  // There will be a RPC method "CreateBillingAccount" in the BillingService
+  // that accept BillingRequest from client
+  rpc CreateBillingAccount (BillingRequest) returns (BillingResponse);
+}
+
+message BillingRequest {
+  string patientId = 1;
+  string name = 2;
+  string email = 3;
+}
+
+message BillingResponse {
+  string accountId = 1;
+  string status = 2;
+}

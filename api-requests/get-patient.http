@@ -6,8 +6,8 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "Robbie Weeks",
-  "email": "xlstc123@gmail.com",
+  "name": "Robbie Weeks with Billing Account 2333",
+  "email": "xlstc1233211@gmail.com",
   "address": "123 smith road",
   "dateOfBirth": "1995-03-05",
   "registeredDate": "2026-03-05"
