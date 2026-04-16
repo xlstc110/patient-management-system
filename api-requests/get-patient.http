@@ -7,7 +7,7 @@ Content-Type: application/json
 
 {
   "name": "Robbie Weeks with Billing Account 2333",
-  "email": "xlstc1233211@gmail.com",
+  "email": "xlstctesting@gmail.com",
   "address": "123 smith road",
   "dateOfBirth": "1995-03-05",
   "registeredDate": "2026-03-05"
